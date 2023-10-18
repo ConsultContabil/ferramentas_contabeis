@@ -70,22 +70,25 @@ img {
 }
 
 @media (min-width: 40rem) {
-    .cards_item {
-        width: 50%;
+        .cards_item {
+            width: 50%;
+        }
     }
-}
 
-@media (min-width: 56rem) {
-    .cards_item {
-        width: 50%;
+    @media (min-width: 56rem) {
+        .cards_item {
+            width: 33.3333%;
+        }
     }
-}
 
-@media (max-width: 740px){
-    .cards_item {
-        width: 33.3333%;
+    @media (min-width: 30rem){
+        .cards_item{
+            width: 50%;
+            display: flex;
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
-}
 
 .card {
     background-color: white;
